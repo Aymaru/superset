@@ -38,6 +38,7 @@ thrift==0.13.0            # via -r requirements/development.in, pyhive, thrift-s
 unicodecsv==0.14.1        # via tableschema, tabulator
 wrapt==1.12.1             # via deprecated
 xlrd==1.2.0               # via tabulator
+crate-smartnow==1.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
