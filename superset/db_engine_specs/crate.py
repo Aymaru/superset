@@ -50,3 +50,11 @@ class CrateEngineSpec(BaseEngineSpec):
             dttm_formatted = dttm.isoformat(sep=" ", timespec="microseconds")
             return f"""DATE_FORMAT('{dttm_formatted}')"""
         return None
+
+    @classmethod
+    def epoch_to_dttm(cls) -> str:
+        return "{col} * 1000"
+
+    @classmethod
+    def epoch_ms_to_dttm(cls) -> str:
+        return "{col}"
