@@ -26,3 +26,4 @@ tableschema
 thrift>=0.11.0,<1.0.0
 pygithub>=1.54.1,<2.0.0
 crate-smartnow==1.1,<1.1
+geojson==2.5.0,<2.5.0
